@@ -9,7 +9,7 @@ Archive of some of my projects from WWU
 **CSCI_367 - Computer Networks**
 - [Sudoku](/csci367/sudoku) {C}
 
-**CSCI_367 - Operating Systems**
+**CSCI_460 - Operating Systems**
 - [Shared Memory](/csci460/shared_memory) {C}
 - [CPU Scheduling](/csci460/cpu_scheduling) {C}
 - [Page Replacement](/csci460/page_replacement) {C}
