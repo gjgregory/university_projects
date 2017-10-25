@@ -9,5 +9,11 @@ Archive of some of my projects from WWU
 **CSCI_367 - Computer Networks**
 - [Sudoku](/csci367/sudoku) {C}
 
+**CSCI_367 - Operating Systems**
+- [Shared Memory](/csci460/shared_memory) {C}
+- [CPU Scheduling](/csci460/cpu_scheduling) {C}
+- [Page Replacement](/csci460/page_replacement) {C}
+- [File System API](/csci460/file_system) {C}
+
 **CSCI_461 - Computer Security**
 - [Ethical Security Exploits](/csci461) {Python}
