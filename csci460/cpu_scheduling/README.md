@@ -4,7 +4,7 @@ The task was to implement two CPU scheduling algorithms, which are simplified ve
 
 * sched_4bsd.c - Simplified version of FreeBSD.
 
-* sched_ule - Simplified version of ULE scheduler.
+* sched_ule.c - Simplified version of ULE scheduler.
 
 Usage:
 
