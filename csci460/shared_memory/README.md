@@ -1,6 +1,6 @@
 ## Shared Memory
 
-The task was to implement an inverted page table shared by all processes in a demand paging system, as well as two page replacement algorithms: Enhanced Second Chance and Least Frequently Used. Then their respective performance with random page replacements was to be tested, as outlined in the PDF.
+The task was to implement information storing between two processes through shared memory. I also got a bit carried away and added synchronization to the project description.
 
 * process_a.c - This program asks the user for a number and retrieves it from standard input. It then forks a child process and has the child receive the number. The child process then stores the number in shared memory so it can be retrieved by Process B, and waits until Process B gets the number before exiting.
 
