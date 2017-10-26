@@ -17,3 +17,7 @@ Archive of some of my projects from WWU
 
 **CSCI_461 - Computer Security**
 - [Ethical Security Exploits](/csci461) {Python}
+
+**CSCI_497F - Cryptography**
+- [Keccak-p Transformer](/csci497f/keccak-p) {Python}
+- [Encrypted Messenger](/csci497f/encrypted-messenger) {Python}
