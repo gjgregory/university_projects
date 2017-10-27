@@ -1,6 +1,8 @@
 # university_projects
 Archive of some of my projects from WWU
 
+**CSCI_330 - Database Systems**
+- [Flight Finder](/csci330/flight_finder) {Java, MySQL}
 
 **CSCI_352 - Unix Software Development**
 - [Command-Line Interpreter](/csci352/cli) {C, GTK+}
