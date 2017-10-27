@@ -1,6 +1,9 @@
 # university_projects
 Archive of some of my projects from WWU
 
+**CSCI_322 - Principles of Concurrent Programming**
+- [Multi-Threaded Radix Sort](/csci322/threaded_radix) {Python}
+
 **CSCI_330 - Database Systems**
 - [Flight Finder](/csci330/flight_finder) {Java, MySQL}
 
