@@ -11,6 +11,9 @@ Archive of some of my projects from WWU
 **CSCI_367 - Computer Networks**
 - [Sudoku](/csci367/sudoku) {C}
 
+**CSCI_412 - Mobile Device Programming**
+- [CritterCap](/csci412/CritterCap) {Java, Android Studio}
+
 **CSCI_460 - Operating Systems**
 - [Shared Memory](/csci460/shared_memory) {C}
 - [CPU Scheduling](/csci460/cpu_scheduling) {C}

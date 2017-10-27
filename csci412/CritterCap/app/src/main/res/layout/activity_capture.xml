@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.drunkentiger.crittercap.CaptureActivity"
+    android:background="#f9edd3"
+    android:orientation="vertical"
+    android:id="@+id/linearMain">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="280dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/spinner_shape"
+        android:contentDescription="@string/photo_description"
+        android:scaleType="fitCenter"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/nameSpinner"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/spinner_shape"
+            android:layout_marginTop="12dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/typeText"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF937D4B" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/colorText"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textSize="20sp"
+            android:layout_columnSpan="3"
+            android:textAlignment="center"
+            android:layout_marginTop="2dp"
+            android:textColor="#FF937D4B" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sizeText"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:textSize="20sp"
+            android:layout_columnSpan="3"
+            android:textAlignment="center"
+            android:layout_marginTop="2dp"
+            android:textColor="#FF937D4B" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/traitsText"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:textSize="20sp"
+            android:layout_columnSpan="3"
+            android:textAlignment="center"
+            android:layout_marginTop="2dp"
+            android:textColor="#FF937D4B"
+            android:maxLines="2" />
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:text="@string/word_delete"
+            android:id="@+id/deleteButton"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/delete_button_shape"
+            android:layout_marginBottom="10dp"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:textColor="#ffffff"
+            android:onClick="deleteAnimal" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="@android:drawable/ic_menu_help"
+            android:backgroundTint="#FF937D4B"
+            android:onClick="popInstructions" />
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:text="@string/word_new"
+            android:id="@+id/newButton"
+            android:layout_gravity="center_vertical|bottom"
+            android:background="@drawable/add_button_shape"
+            android:layout_marginBottom="10dp"
+            android:layout_column="2"
+            android:layout_row="7"
+            android:textColor="#ffffff"
+            android:onClick="newAnimal" />
+    </GridLayout>
+
+</LinearLayout>
